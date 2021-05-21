@@ -19,7 +19,7 @@ dedata = {'ret': 0, 'msg': "success"}
 # 企业微信群机器人
 
 def send_wechat(md):
-    wechat_bot_url = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=0e0d6306-acca-4ad5-b232-483eaa83bfea"
+    wechat_bot_url = "企微机器人webhook"
     headers = {'Content-Type': 'application/json'}
     #request_data = {"msgtype": "markdown", "markdown": {"content": md}}
     request_data = md
